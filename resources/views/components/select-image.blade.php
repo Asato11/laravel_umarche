@@ -16,7 +16,7 @@
       </header>
       <main class="modal__content" id="{{ $modal }}-content">
         <div class="flex flex-wrap">
-          @foreach ($images as $image )
+          {{-- @foreach ($images as $image )
               <div class="w-1/4 p-2 md:p-4">
               <div class="border rounded-md p-2 md:p-4">
                 <img class="image" data-id="{{ $name }}_{{ $image->id }}" 
@@ -27,7 +27,7 @@
                 <div class="text-gray-700">{{ $image->title }}</div>
               </div>
               </div>
-            @endforeach
+            @endforeach --}}
           </div>
       </main>
       <footer class="modal__footer">
