@@ -14,3 +14,6 @@ storageフォルダにリンク後、
 
 storage/app/public/puroductsフォルダ内に保存すると表示されます。
 (productsフォルダがない場合は作成してください。)
+
+ショップの画像も表示するbな愛は、
+torage/app/public/shopsフォルダを作成し、画像を保存してください
