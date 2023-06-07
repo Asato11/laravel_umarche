@@ -11,10 +11,11 @@ class Image extends Model
     use HasFactory;
 
     protected $fillable = [
-        'owner_id',
-        'filename'
-
+        'user_id',
+        'product_id',
+        'quantity'
     ];
+    
     public function owner(){
         return $this->belongsTo(Owner::class);
     }
