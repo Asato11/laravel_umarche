@@ -37,6 +37,8 @@ Route::prefix('shops')
     Route::post('update/{shop}',[ShopController::class,'update'])->name('shops.update'); 
 });
 
+
+
 Route::resource('images', ImageController::class)
     ->middleware('auth:owners')->except(['show']);
 
