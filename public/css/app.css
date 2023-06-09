@@ -1852,11 +1852,17 @@ select{
   }
 }
 @media (min-width: 1024px){
+  .lg\:flex{
+    display: flex;
+  }
   .lg\:w-1\/2{
     width: 50%;
   }
   .lg\:w-2\/3{
     width: 66.666667%;
+  }
+  .lg\:justify-around{
+    justify-content: space-around;
   }
   .lg\:px-8{
     padding-left: 2rem;
